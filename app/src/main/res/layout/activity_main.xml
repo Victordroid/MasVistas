@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #FFFFFF"
+    android:orientation="vertical"
+    tools:context="mislugares.com.example.masvistas.MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton"
+        android:onClick="sePulsa"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <EditText
+        android:id="@+id/entrada"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Introduce un número"
+        android:inputType="numberDecimal"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <Button
+        android:id="@+id/boton0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sePulsa0"
+        android:tag="2"
+        android:text="2"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/salida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Resultado"
+        android:text=""
+        android:textColor="#0000FF"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="438dp" />
+</LinearLayout>
