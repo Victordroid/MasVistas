@@ -7,7 +7,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
+//comentario
 public class MainActivity extends AppCompatActivity {
     private EditText entrada;
     private TextView salida;

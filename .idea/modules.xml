@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MasVistas.iml" filepath="$PROJECT_DIR$/MasVistas.iml" />
+      <module fileurl="file://C:\Users\Victor\Documents\GitHub\MasVistas\MasVistas.iml" filepath="C:\Users\Victor\Documents\GitHub\MasVistas\MasVistas.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Victor\Documents\GitHub\MasVistas\app\app.iml" filepath="C:\Users\Victor\Documents\GitHub\MasVistas\app\app.iml" />
     </modules>
   </component>
 </project>
